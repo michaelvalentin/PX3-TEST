@@ -1,8 +1,0 @@
-C:\Users\MV\Dropbox\itu\BDSA_SoftwareDesignAndAnalysis_JOE\Test-Project\PX3-Test\PX3-Test\bin\Debug\PX3-Test.exe
-C:\Users\MV\Dropbox\itu\BDSA_SoftwareDesignAndAnalysis_JOE\Test-Project\PX3-Test\PX3-Test\bin\Debug\PX3-Test.pdb
-C:\Users\MV\Dropbox\itu\BDSA_SoftwareDesignAndAnalysis_JOE\Test-Project\PX3-Test\PX3-Test\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\MV\Dropbox\itu\BDSA_SoftwareDesignAndAnalysis_JOE\Test-Project\PX3-Test\PX3-Test\obj\x86\Debug\PX3_Test.Properties.Resources.resources
-C:\Users\MV\Dropbox\itu\BDSA_SoftwareDesignAndAnalysis_JOE\Test-Project\PX3-Test\PX3-Test\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\MV\Dropbox\itu\BDSA_SoftwareDesignAndAnalysis_JOE\Test-Project\PX3-Test\PX3-Test\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\MV\Dropbox\itu\BDSA_SoftwareDesignAndAnalysis_JOE\Test-Project\PX3-Test\PX3-Test\obj\x86\Debug\PX3-Test.exe
-C:\Users\MV\Dropbox\itu\BDSA_SoftwareDesignAndAnalysis_JOE\Test-Project\PX3-Test\PX3-Test\obj\x86\Debug\PX3-Test.pdb
