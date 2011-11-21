@@ -1,12 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-Morten tester
-Jens tester
-=======
-Jeg har skrevet noget mere her..
-
-Her er en anden linje...
->>>>>>> 9d47b722a09d164cb2c299c14c689fd621c2fc84
-=======
-Tester merge tool
->>>>>>> f5adc1efeb3f77b5284ddcb6ffe7bc5cc3984b51
+Jeg er glad i dag
