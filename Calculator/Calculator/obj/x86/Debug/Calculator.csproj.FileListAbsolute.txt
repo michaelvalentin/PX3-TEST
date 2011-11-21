@@ -11,3 +11,6 @@ C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\bin\Debu
 C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\bin\Debug\Calculator.pdb
 C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\Calculator.exe
 C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator\obj\x86\Debug\Calculator.exe
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator\obj\x86\Debug\ResolveAssemblyReference.cache
