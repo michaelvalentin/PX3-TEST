@@ -31,6 +31,6 @@
         </ComboBox>
         <Button Content="Store" Height="35" HorizontalAlignment="Left" Margin="220,103,0,0" Name="button16" VerticalAlignment="Top" Width="86" />
         <Button Content="Load" Height="35" HorizontalAlignment="Left" Margin="220,144,0,0" Name="button17" VerticalAlignment="Top" Width="86" />
-        <Button Content="=" Height="35" HorizontalAlignment="Left" Margin="220,185,0,0" Name="button18" VerticalAlignment="Top" Width="86" />
+        <Button Content="=" Height="35" HorizontalAlignment="Left" Margin="220,0,0,15" Name="button18" VerticalAlignment="Bottom" Width="86" />
     </Grid>
 </Window>
