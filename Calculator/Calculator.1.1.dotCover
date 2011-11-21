@@ -1,0 +1,11 @@
+<Configuration>
+  <CoverageFilters>
+    <IncludeFilters>
+      <Filter ModuleMask="*" ClassMask="*" FunctionMask="*" />
+    </IncludeFilters>
+    <ExcludeFilters />
+  </CoverageFilters>
+  <SnapshotDialog>
+    <InitialDirectory>C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator</InitialDirectory>
+  </SnapshotDialog>
+</Configuration>
