@@ -33,6 +33,10 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
+# Solution options #
+####################
+Calculator.suo
+
 # Build files #
 ###############
 Calculator/Calculator/bin/
