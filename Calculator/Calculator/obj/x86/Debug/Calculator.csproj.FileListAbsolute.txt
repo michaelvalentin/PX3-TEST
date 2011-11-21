@@ -1,0 +1,16 @@
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\MainWindow.baml
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\App.g.cs
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\Calculator_MarkupCompile.cache
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\Calculator.g.resources
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\Calculator.exe
+C:\Users\Morten\Documents\ITU\3. Semester\PX3TEST\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator\obj\x86\Debug\Calculator.exe
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator\obj\x86\Debug\ResolveAssemblyReference.cache
