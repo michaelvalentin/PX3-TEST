@@ -1,2 +1,4 @@
 ## GENDAN EN SLETTET FIL (hvor $file er stien til den fil der skal gendannes):
 git checkout $(git rev-list -n 1 HEAD -- "$file")^ -- "$file"
+
+##: Smart med en hjælpe fil. Jeg skriver kun dette for at teste
