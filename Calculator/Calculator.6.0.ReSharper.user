@@ -1,0 +1,26 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="47CB751D-464E-442B-9E74-030E2E4E9022/f:MainWindow.xaml.cs" caret="0" fromTop="0" />
+      <File id="47CB751D-464E-442B-9E74-030E2E4E9022/f:MainWindow.xaml" caret="1" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
