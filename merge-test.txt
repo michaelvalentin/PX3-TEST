@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-Michael skriver noget vildt..
-
-Morten er en abe.
-
-Michael er umoden...
-=======
-Jeg skriver noget helt nyt - Morten
->>>>>>> a9766f0281176284d57ecab25a1d288e523df2b7
+hej hej!
