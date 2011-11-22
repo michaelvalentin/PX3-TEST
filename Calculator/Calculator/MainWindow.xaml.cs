@@ -1,5 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using System.Diagnostics.Contracts;
 
 namespace Calculator
 {
@@ -22,6 +34,11 @@ namespace Calculator
         }
 
         public event OperationHandler OperationCalled;
+
+        public void SetValueRead()
+        {
+            _displayValueIsResult = true;
+        }
 
         public double DisplayValue
         {
@@ -154,7 +171,10 @@ namespace Calculator
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
-            display.Text = display.Text.Substring(0, display.Text.Length - 1);
+            if(display.Text.Length>0)
+            {
+                display.Text = display.Text.Substring(0, display.Text.Length - 1);
+            }
         }
 
         private void StoreButton_Click(object sender, RoutedEventArgs e)
