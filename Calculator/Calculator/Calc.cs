@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Contracts;
+﻿using System.Collections.Generic;
 
 namespace Calculator
 {
@@ -10,15 +8,13 @@ namespace Calculator
     /// </summary>
     public class Calc
     {
-        private double _result;
+        private double _result = 0;
         private Dictionary<string, double> storage = new Dictionary<string, double>();
 
-        public Calc()
+        public void Update(Operation opr, double val)
         {
-            Clear();
         }
 
-        [Pure]
         public double Result
         {
             get { return _result; }
@@ -29,37 +25,33 @@ namespace Calculator
             _result = 0;
         }
 
-        [Pure]
         public double Recall(string index)
         {
-            Contract.Requires(index != null);
-            return storage.ContainsKey(index) ? storage[index] : 0.0;
+            return storage[index];
         }
 
         public void Store(string index, double val)
         {
-            Contract.Requires(index != null);
             storage[index] = val;
         }
 
-        public void Add(double val)
+        private void Add(double val)
         {
             _result += val;
         }
 
-        public void Subtract(double val)
+        private void Subtract(double val)
         {
             _result -= val;
         }
 
-        public void Multiply(double val)
+        private void Multiply(double val)
         {
             _result *= val;
         }
 
-        public void Divide(double val)
+        private void Divide(double val)
         {
-            Contract.Requires(Math.Abs(val - 0) > EPSILON);
             _result = _result / val;
         }
     }
