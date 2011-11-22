@@ -55,9 +55,4 @@ namespace Calculator
             _result = _result / val;
         }
     }
-
-    public enum Operation
-    {
-        Addition, Subtraction, Multiplication, Division
-    }
 }
