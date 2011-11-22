@@ -69,6 +69,9 @@ namespace Calculator
                 case Operation.Store:
                     model.Store(currentPosition, currentValue);
                     break;
+                case Operation.Store:
+                    model.Store(currentPosition, currentValue);
+                    break;
             }
 
             view.DisplayValue = model.Result;
