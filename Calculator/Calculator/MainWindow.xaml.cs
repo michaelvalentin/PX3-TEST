@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -171,7 +168,7 @@ namespace Calculator
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
-            if(display.Text.Length>0)
+            if (display.Text.Length > 0)
             {
                 Char[] _displayArray = display.Text.ToArray();
 

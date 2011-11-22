@@ -1,0 +1,574 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Calculator.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Calculator.Moles.MApp">
+            <summary>Mole type of <see cref="T:Calculator.App"/>
+            .</summary>
+        </member>
+        <member name="M:Calculator.Moles.MApp.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Calculator.Moles.MApp.#ctor(Calculator.App)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Calculator.Moles.MApp.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Calculator.Moles.MApp.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Calculator.Moles.MApp.Bind(System.Windows.Markup.IQueryAmbient)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Calculator.Moles.MApp.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Calculator.Moles.MApp.Constructor">
+            <summary>Sets the mole of <see cref="M:Calculator.App.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MApp.InitializeComponent">
+            <summary>Sets the mole of <see cref="M:Calculator.App.InitializeComponent"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MApp.Main">
+            <summary>Sets the mole of <see cref="M:Calculator.App.Main"/>
+            </summary>
+        </member>
+        <member name="T:Calculator.Moles.MApp.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Calculator.Moles.MApp.AllInstances.InitializeComponent">
+            <summary>Sets the mole of <see cref="M:Calculator.App.InitializeComponent"/>
+            </summary>
+        </member>
+        <member name="T:Calculator.Moles.MCalc">
+            <summary>Mole type of <see cref="T:Calculator.Calc"/>
+            .</summary>
+        </member>
+        <member name="M:Calculator.Moles.MCalc.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Calculator.Moles.MCalc.#ctor(Calculator.Calc)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Calculator.Moles.MCalc.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Calculator.Moles.MCalc.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.AddDouble">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Add(System.Double)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.Clear">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Clear"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.Constructor">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.DivideDouble">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Divide(System.Double)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.MultiplyDouble">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Multiply(System.Double)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.RecallString">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Recall(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.ResultGet">
+            <summary>Sets the mole of <see cref="P:Calculator.Calc.Result"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.StoreStringDouble">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Store(System.String,System.Double)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.SubtractDouble">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Subtract(System.Double)"/>
+            </summary>
+        </member>
+        <member name="T:Calculator.Moles.MCalc.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.AllInstances.AddDouble">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Add(System.Double)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.AllInstances.Clear">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Clear"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.AllInstances.DivideDouble">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Divide(System.Double)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.AllInstances.MultiplyDouble">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Multiply(System.Double)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.AllInstances.RecallString">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Recall(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.AllInstances.ResultGet">
+            <summary>Sets the mole of <see cref="P:Calculator.Calc.Result"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.AllInstances.StoreStringDouble">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Store(System.String,System.Double)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MCalc.AllInstances.SubtractDouble">
+            <summary>Sets the mole of <see cref="M:Calculator.Calc.Subtract(System.Double)"/>
+            </summary>
+        </member>
+        <member name="T:Calculator.Moles.MControler">
+            <summary>Mole type of <see cref="T:Calculator.Controler"/>
+            .</summary>
+        </member>
+        <member name="M:Calculator.Moles.MControler.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Calculator.Moles.MControler.#ctor(Calculator.Controler)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Calculator.Moles.MControler.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Calculator.Moles.MControler.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Calculator.Moles.MControler.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Calculator.Moles.MControler.ConstructorMainWindowCalc">
+            <summary>Sets the mole of <see cref="M:Calculator.Controler.#ctor(Calculator.MainWindow,Calculator.Calc)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MControler.HandleOperationOperation">
+            <summary>Sets the mole of <see cref="M:Calculator.Controler.HandleOperation(Calculator.Operation)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MControler.OperateOperation">
+            <summary>Sets the mole of <see cref="M:Calculator.Controler.Operate(Calculator.Operation)"/>
+            </summary>
+        </member>
+        <member name="T:Calculator.Moles.MControler.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Calculator.Moles.MControler.AllInstances.HandleOperationOperation">
+            <summary>Sets the mole of <see cref="M:Calculator.Controler.HandleOperation(Calculator.Operation)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MControler.AllInstances.OperateOperation">
+            <summary>Sets the mole of <see cref="M:Calculator.Controler.Operate(Calculator.Operation)"/>
+            </summary>
+        </member>
+        <member name="T:Calculator.Moles.MMainWindow">
+            <summary>Mole type of <see cref="T:Calculator.MainWindow"/>
+            .</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.#ctor(Calculator.MainWindow)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.Bind(System.Windows.IInputElement)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.Bind(System.Windows.Markup.IAddChild)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.Bind(System.Windows.Media.Animation.IAnimatable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.Bind(System.Windows.IFrameworkInputElement)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.Bind(System.ComponentModel.ISupportInitialize)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.Bind(System.Windows.Markup.IComponentConnector)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Calculator.Moles.MMainWindow.Bind(System.Windows.Markup.IQueryAmbient)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AddButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.AddButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.CommaButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.CommaButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Constructor">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.DeleteButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.DeleteButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.DisplayValueGet">
+            <summary>Sets the mole of <see cref="P:Calculator.MainWindow.DisplayValue"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.DisplayValueSetDouble">
+            <summary>Sets the mole of <see cref="P:Calculator.MainWindow.DisplayValue"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.DivideButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.DivideButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.EqualButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.EqualButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.InitializeComponent">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.InitializeComponent"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.LoadButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.LoadButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.MultiplyButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.MultiplyButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Number0_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number0_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Number2_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number2_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Number3_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number3_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Number4_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number4_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Number5_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number5_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Number6_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number6_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Number7_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number7_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Number8_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number8_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.Number9_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number9_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.OnOperationCalledOperation">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.OnOperationCalled(Calculator.Operation)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.OperationCalledAddOperationHandler">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.add_OperationCalled(Calculator.OperationHandler)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.OperationCalledRemoveOperationHandler">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.remove_OperationCalled(Calculator.OperationHandler)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.SetValueRead">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.SetValueRead"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.StoreButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.StoreButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.StoreIndexGet">
+            <summary>Sets the mole of <see cref="P:Calculator.MainWindow.StoreIndex"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.SubtractButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.SubtractButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.SystemWindowsMarkupIComponentConnectorConnectInt32Object">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.button1_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.button1_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.numberClickedUInt32">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.numberClicked(System.UInt32)"/>
+            </summary>
+        </member>
+        <member name="T:Calculator.Moles.MMainWindow.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.AddButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.AddButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.CommaButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.CommaButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.DeleteButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.DeleteButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.DisplayValueGet">
+            <summary>Sets the mole of <see cref="P:Calculator.MainWindow.DisplayValue"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.DisplayValueSetDouble">
+            <summary>Sets the mole of <see cref="P:Calculator.MainWindow.DisplayValue"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.DivideButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.DivideButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.EqualButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.EqualButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.InitializeComponent">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.InitializeComponent"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.LoadButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.LoadButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.MultiplyButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.MultiplyButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.Number0_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number0_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.Number2_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number2_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.Number3_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number3_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.Number4_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number4_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.Number5_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number5_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.Number6_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number6_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.Number7_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number7_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.Number8_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number8_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.Number9_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.Number9_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.OnOperationCalledOperation">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.OnOperationCalled(Calculator.Operation)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.OperationCalledAddOperationHandler">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.add_OperationCalled(Calculator.OperationHandler)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.OperationCalledRemoveOperationHandler">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.remove_OperationCalled(Calculator.OperationHandler)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.SetValueRead">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.SetValueRead"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.StoreButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.StoreButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.StoreIndexGet">
+            <summary>Sets the mole of <see cref="P:Calculator.MainWindow.StoreIndex"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.SubtractButton_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.SubtractButton_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.SystemWindowsMarkupIComponentConnectorConnectInt32Object">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.System.Windows.Markup.IComponentConnector.Connect(System.Int32,System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.button1_ClickObjectRoutedEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.button1_Click(System.Object,System.Windows.RoutedEventArgs)"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MMainWindow.AllInstances.numberClickedUInt32">
+            <summary>Sets the mole of <see cref="M:Calculator.MainWindow.numberClicked(System.UInt32)"/>
+            </summary>
+        </member>
+        <member name="T:Calculator.Moles.MStart">
+            <summary>Mole type of <see cref="T:Calculator.Start"/>
+            .</summary>
+        </member>
+        <member name="M:Calculator.Moles.MStart.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Calculator.Moles.MStart.#ctor(Calculator.Start)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Calculator.Moles.MStart.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Calculator.Moles.MStart.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Calculator.Moles.MStart.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Calculator.Moles.MStart.Constructor">
+            <summary>Sets the mole of <see cref="M:Calculator.Start.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MStart.MainStringArray">
+            <summary>Sets the mole of <see cref="M:Calculator.Start.Main(System.String[])"/>
+            </summary>
+        </member>
+        <member name="P:Calculator.Moles.MStart._Mainb__0ObjectStartupEventArgs">
+            <summary>Sets the mole of <see cref="M:Calculator.Start.&lt;Main&gt;b__0(System.Object,System.Windows.StartupEventArgs)"/>
+            </summary>
+        </member>
+        <member name="T:Calculator.Moles.MStart.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Calculator.Moles.SApp">
+            <summary>Stub type of <see cref="T:Calculator.App"/>
+            .</summary>
+        </member>
+        <member name="M:Calculator.Moles.SApp.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Calculator.Moles.SApp.InitializeStub">
+            <summary>Initializes a new instance of type SApp</summary>
+        </member>
+        <member name="P:Calculator.Moles.SApp.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Calculator.Moles.SApp.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Calculator.Moles.SCalc">
+            <summary>Stub type of <see cref="T:Calculator.Calc"/>
+            .</summary>
+        </member>
+        <member name="M:Calculator.Moles.SCalc.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Calculator.Moles.SCalc.InitializeStub">
+            <summary>Initializes a new instance of type SCalc</summary>
+        </member>
+        <member name="P:Calculator.Moles.SCalc.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Calculator.Moles.SCalc.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Calculator.Moles.SControler">
+            <summary>Stub type of <see cref="T:Calculator.Controler"/>
+            .</summary>
+        </member>
+        <member name="M:Calculator.Moles.SControler.#ctor(Calculator.MainWindow,Calculator.Calc)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Calculator.Moles.SControler.InitializeStub">
+            <summary>Initializes a new instance of type SControler</summary>
+        </member>
+        <member name="P:Calculator.Moles.SControler.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Calculator.Moles.SControler.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Calculator.Moles.SMainWindow">
+            <summary>Stub type of <see cref="T:Calculator.MainWindow"/>
+            .</summary>
+        </member>
+        <member name="M:Calculator.Moles.SMainWindow.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Calculator.Moles.SMainWindow.InitializeStub">
+            <summary>Initializes a new instance of type SMainWindow</summary>
+        </member>
+        <member name="P:Calculator.Moles.SMainWindow.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Calculator.Moles.SMainWindow.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Calculator.Moles.SStart">
+            <summary>Stub type of <see cref="T:Calculator.Start"/>
+            .</summary>
+        </member>
+        <member name="M:Calculator.Moles.SStart.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Calculator.Moles.SStart.InitializeStub">
+            <summary>Initializes a new instance of type SStart</summary>
+        </member>
+        <member name="P:Calculator.Moles.SStart.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Calculator.Moles.SStart.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
