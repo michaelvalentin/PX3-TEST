@@ -64,10 +64,12 @@ namespace Calculator
                     model.Multiply(currentValue);
                     break;
                 case Operation.Recall:
-                    model.Recall(currentPosition);
+                    view.DisplayValue = model.Recall(currentPosition);
+                    break;
+                case Operation.Enter:
                     break;
                 case Operation.Store:
-                    model.Store(currentPosition, currentValue);
+                    model.Clear();
                     break;
             }
 
