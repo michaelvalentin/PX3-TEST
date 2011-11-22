@@ -11,11 +11,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics.Contracts;
 
 namespace Calculator
 {
-    using System.Diagnostics.Contracts;
-
     public delegate void OperationHandler(Operation o);
 
     /// <summary>
@@ -23,22 +22,38 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        private bool _valueIsResult;
+        private bool _displayValueIsResult;
         private bool _comma;
 
 
         public MainWindow()
         {
             InitializeComponent();
-            _valueIsResult = true;
+            this._displayValueIsResult = true;
             _comma = false;
         }
 
         public event OperationHandler OperationCalled;
 
-        public double GetValue()
+        public double DisplayValue
         {
-            return Double.Parse(display.Text);
+            get
+            {
+                return Double.Parse(display.Text);
+            }
+            set
+            {
+                display.Text = value.ToString();
+                this._displayValueIsResult = true;
+            }
+        }
+
+        public string StoreIndex
+        {
+            get
+            {
+                return StoreCombobox.SelectedItem.ToString();
+            }
         }
 
         protected void OnOperationCalled(Operation o)
@@ -51,12 +66,12 @@ namespace Calculator
 
         private void LoadButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.OnOperationCalled(Operation.Recall);
         }
 
         private void EqualButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.OnOperationCalled(Operation.Enter);
         }
 
         private void DivideButton_Click(object sender, RoutedEventArgs e)
@@ -86,13 +101,13 @@ namespace Calculator
 
         private void numberClicked(uint num)
         {
-            if (_valueIsResult)
+            if (this._displayValueIsResult)
             {
                 display.Text = "";
-                _valueIsResult = false;
+                this._displayValueIsResult = false;
             }
             display.Text += num.ToString();
-            if (display.Text.Equals("0")) _valueIsResult = true;
+            if (display.Text.Equals("0")) this._displayValueIsResult = true;
         }
 
         private void CommaButton_Click(object sender, RoutedEventArgs e)
@@ -152,6 +167,11 @@ namespace Calculator
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
             display.Text = display.Text.Substring(0, display.Text.Length - 1);
+        }
+
+        private void StoreButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.OnOperationCalled(Operation.Store);
         }
 
     }

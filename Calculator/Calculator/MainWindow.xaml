@@ -22,14 +22,14 @@
         <Button Content="/" Height="35" HorizontalAlignment="Left" Margin="168,62,0,0" Name="DivideButton" VerticalAlignment="Top" Width="46" Click="DivideButton_Click" />
         <Button Content="-" Height="35" HorizontalAlignment="Left" Margin="168,144,0,0" Name="SubtractButton" VerticalAlignment="Top" Width="46" Click="SubtractButton_Click" />
         <Button Content="+" Height="35" HorizontalAlignment="Left" Margin="168,185,0,0" Name="AddButton" VerticalAlignment="Top" Width="46" Click="AddButton_Click" />
-        <ComboBox Height="35" HorizontalAlignment="Left" Margin="220,62,0,0" Name="StoreCombobox" VerticalAlignment="Top" Width="86" ItemsSource="{Binding}">
-            <ComboBoxItem Content="A" IsEnabled="False" />
+        <ComboBox Height="35" HorizontalAlignment="Left" Margin="220,62,0,0" Name="StoreCombobox" VerticalAlignment="Top" Width="86" ItemsSource="{Binding}" SelectedIndex="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem Content="A" IsEnabled="True" />
             <ComboBoxItem Content="B" />
             <ComboBoxItem Content="C" />
             <ComboBoxItem Content="D" />
             <ComboBoxItem Content="E" />
         </ComboBox>
-        <Button Content="Store" Height="35" HorizontalAlignment="Left" Margin="220,103,0,0" Name="StoreButton" VerticalAlignment="Top" Width="86" />
+        <Button Content="Store" Height="35" HorizontalAlignment="Left" Margin="220,103,0,0" Name="StoreButton" VerticalAlignment="Top" Width="86" Click="StoreButton_Click" />
         <Button Content="Load" Height="35" HorizontalAlignment="Left" Margin="220,0,0,56" Name="LoadButton" VerticalAlignment="Bottom" Width="86" Click="LoadButton_Click" />
         <Button Content="=" Height="35" HorizontalAlignment="Left" Margin="220,185,0,0" Name="EqualButton" VerticalAlignment="Top" Width="86" Click="EqualButton_Click" />
         <Button Content="C" Height="35" HorizontalAlignment="Left" Margin="116,185,0,0" Name="DeleteButton" VerticalAlignment="Top" Width="46" Click="DeleteButton_Click" />
