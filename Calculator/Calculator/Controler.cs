@@ -46,8 +46,8 @@ namespace Calculator
         /// <param name="operation"></param>
         private void Operate(Operation operation)
         {
-            double currentValue = view.DisplayValue();
-            string currentPosition = view.CurrentVariable();
+            double currentValue = view.DisplayValue;
+            string currentPosition = view.StoreIndex;
 
             switch (currentOperation)
             {
