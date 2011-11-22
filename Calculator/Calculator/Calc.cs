@@ -6,7 +6,7 @@ namespace Calculator
     /// <summary>
     ///     Represents a simple calculator with a storage engine for remembering values
     /// </summary>
-    public class Calculator
+    public class Calc
     {
         private double _result = 0;
         private Dictionary<string, double> storage = new Dictionary<string, double>();
