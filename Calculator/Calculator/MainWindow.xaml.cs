@@ -16,7 +16,7 @@ namespace Calculator
 {
     using System.Diagnostics.Contracts;
 
-    public delegate void Handler(Operation o);
+    public delegate void OperationHandler(Operation o);
 
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -34,18 +34,18 @@ namespace Calculator
             _comma = false;
         }
 
-        public event Handler CollectionChange;
+        public event OperationHandler OperationCalled;
 
         public double GetValue()
         {
             return Double.Parse(display.Text);
         }
 
-        protected void OnCollectionChange(Operation o)
+        protected void OnOperationCalled(Operation o)
         {
-            if (this.CollectionChange != null)
+            if (this.OperationCalled != null)
             {
-                this.CollectionChange(o);
+                this.OperationCalled(o);
             }
         }
 
@@ -61,22 +61,22 @@ namespace Calculator
 
         private void DivideButton_Click(object sender, RoutedEventArgs e)
         {
-            this.OnCollectionChange(Operation.Division);
+            this.OnOperationCalled(Operation.Division);
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            this.OnCollectionChange(Operation.Addition);
+            this.OnOperationCalled(Operation.Addition);
         }
 
         private void SubtractButton_Click(object sender, RoutedEventArgs e)
         {
-            this.OnCollectionChange(Operation.Subtraction);
+            this.OnOperationCalled(Operation.Subtraction);
         }
 
         private void MultiplyButton_Click(object sender, RoutedEventArgs e)
         {
-            this.OnCollectionChange(Operation.Multiplication);
+            this.OnOperationCalled(Operation.Multiplication);
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
