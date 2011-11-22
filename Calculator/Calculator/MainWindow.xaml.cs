@@ -173,12 +173,17 @@ namespace Calculator
         {
             if(display.Text.Length>0)
             {
+                Char[] _displayArray = display.Text.ToArray();
+
+                if (_displayArray[display.Text.Length - 1].Equals(Convert.ToChar(","))) _comma = false;
+                
                 display.Text = display.Text.Substring(0, display.Text.Length - 1);
             }
         }
 
         private void StoreButton_Click(object sender, RoutedEventArgs e)
         {
+            Contract.Requires(display.Text.Length > 0 && display.Text.ToString() != null);
             this.OnOperationCalled(Operation.Store);
         }
 
