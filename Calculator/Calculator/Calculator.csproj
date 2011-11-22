@@ -89,6 +89,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\App.datasource" />
+    <None Include="Properties\DataSources\Calc.datasource" />
+    <None Include="Properties\DataSources\Calculator.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\Calculator.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\MainWindow.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

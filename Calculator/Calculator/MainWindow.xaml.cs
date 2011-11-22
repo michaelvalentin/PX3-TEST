@@ -35,6 +35,11 @@ namespace Calculator
 
         public event OperationHandler OperationCalled;
 
+        public void SetValueRead()
+        {
+            _displayValueIsResult = true;
+        }
+
         public double DisplayValue
         {
             get
@@ -166,7 +171,10 @@ namespace Calculator
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
-            display.Text = display.Text.Substring(0, display.Text.Length - 1);
+            if(display.Text.Length>0)
+            {
+                display.Text = display.Text.Substring(0, display.Text.Length - 1);
+            }
         }
 
         private void StoreButton_Click(object sender, RoutedEventArgs e)
