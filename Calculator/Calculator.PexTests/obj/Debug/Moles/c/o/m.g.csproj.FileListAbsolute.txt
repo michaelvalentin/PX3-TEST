@@ -1,0 +1,9 @@
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator.PexTests\obj\Debug\Moles\c\b\Calculator.Moles.xml
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator.PexTests\obj\Debug\Moles\c\b\Calculator.Moles.dll
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator.PexTests\obj\Debug\Moles\c\b\Calculator.Moles.pdb
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator.PexTests\obj\Debug\Moles\c\b\Calculator.exe
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator.PexTests\obj\Debug\Moles\c\b\Calculator.pdb
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator.PexTests\obj\Debug\Moles\c\o\ResolveAssemblyReference.cache
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator.PexTests\obj\Debug\Moles\c\o\Calculator.Moles.rewritten
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator.PexTests\obj\Debug\Moles\c\o\Calculator.Moles.dll
+C:\Users\MV\Desktop\Bdsa-Test-Project\Calculator\Calculator.PexTests\obj\Debug\Moles\c\o\Calculator.Moles.pdb
